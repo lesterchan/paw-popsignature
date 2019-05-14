@@ -1,7 +1,7 @@
 {
   "name": "paw-popsignature",
   "version": "1.0.0",
-  "description": "A Paw Extension that allows you to generate X-GID-AUX-POP HMAC signature for GrabPay.",
+  "description": "A Paw Extension that allows you to generate a X-GID-AUX-POP HMAC signature. Used mainly for GrabPay API.",
   "license": "MIT",
   "author": "Lester Chan <lesterchan@gmail.com> (https://lesterchan.net)",
   "homepage": "https://github.com/lesterchan/paw-popsignature",
@@ -15,10 +15,6 @@
   },
   "eslintConfig": {
     "extends": "techinasia-base",
-    "globals": {
-      "DynamicValueInput": "readonly",
-      "registerDynamicValueClass": "readonly"
-    },
     "rules": {
       "max-len": 0
     }

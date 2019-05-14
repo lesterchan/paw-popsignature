@@ -1,5 +1,5 @@
 # com.lesterchan.PawExtensions.POPSignature
-A Paw Extension that allows you to generate X-GID-AUX-POP HMAC signature for GrabPay.
+A Paw Extension that allows you to generate a X-GID-AUX-POP HMAC signature. Used mainly for GrabPay API.
 
 ## Build
 ```

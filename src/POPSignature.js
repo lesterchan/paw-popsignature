@@ -15,7 +15,7 @@ export default class POPSignature {
       this.context = null
   };
 
-  evaluate(context) {
+  evaluate() {
     if (this.clientSecret && this.accessToken && this.date) {
       return this._generatePOPSignature(this.clientSecret, this.accessToken, this.date);
     }
