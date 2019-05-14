@@ -13,14 +13,14 @@ export default class POPSignature {
 
   constructor() {
       this.context = null
-  }
+  };
 
   evaluate(context) {
     if (this.clientSecret && this.accessToken && this.date) {
       return this._generatePOPSignature(this.clientSecret, this.accessToken, this.date);
     }
     return null;
-  }
+  };
 
   _base64URLEncode(str) {
     return str.toString(CryptoJS.enc.Base64).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
